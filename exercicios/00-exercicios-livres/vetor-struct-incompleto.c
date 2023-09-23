@@ -36,7 +36,7 @@ int main() {
         //printf("Digite o dia de nascimento: ");
         //scanf("%d", &pessoas[i].diaNascimento);
 
-        //printf("Digite o mês de nascimento: ");
+        //printf("Digite o mÃªs de nascimento: ");
         //scanf("%d", &pessoas[i].mesNascimento);
 
         printf("Digite o ano de nascimento: ");
@@ -46,8 +46,8 @@ int main() {
         pessoas[i].idade = calcularIdade(pessoas[i].anoNascimento);
     }
 
-    // saída;
-    printf("\nRelatório de Pessoas +18:\n");
+    // saÃ­da;
+    printf("\nRelatÃ³rio de Pessoas +18:\n");
     for (int i = 0; i < MAX_PESSOAS; i++) {
     	if(pessoas[i].idade > 18) {
     		printf("\n----------\nPessoa %d:\n", i + 1);
