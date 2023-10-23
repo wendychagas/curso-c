@@ -3,12 +3,12 @@
 #include <stdlib.h>
 #include <locale.h>
 
-#define TITULO "\n------------------\n   EXERCICIO \n------------------\n"
+#define TITULO "\n------------------\n   EXERCICIO 09\n------------------\n"
 
 /*
-	9) Desenvolva um algoritmo que peÁa ao usu·rio que insira dois n˙meros inteiros positivos 
-	A e B, no qual A deve ser menor que B (supıe-se que o usu·rio ir· respeitar esse 
-	enunciado). O algoritmo deve mostrar, na tela, todos os n˙meros Ìmpares 
+	9) Desenvolva um algoritmo que pe√ßa ao usu√°rio que insira dois n√∫meros inteiros positivos 
+	A e B, no qual A deve ser menor que B (sup√µe-se que o usu√°rio ir√° respeitar esse 
+	enunciado). O algoritmo deve mostrar, na tela, todos os n√∫meros √≠mpares 
 	compreendidos entre A e B (inclusive).
 */
 
@@ -28,7 +28,7 @@ int main() {
 	fflush(stdin);
 	
 	// processamento;
-	printf("\nÕmpares: \n");
+	printf("\n√çmpares: \n");
 	while(intA <= intB) {
 		if(intA % 2 == 1) {
 			printf("%d ", intA);
@@ -37,7 +37,7 @@ int main() {
 	}
 	printf("\n");
 	
-	// saÌda;
+	// sa√≠da;
 	
 	system("pause");
 	return 0;
