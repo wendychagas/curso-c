@@ -4,14 +4,14 @@
 #include <locale.h>
 #include <math.h>
 
-#define TITULO "\n------------------\n   EXERCICIO \n------------------\n"
+#define TITULO "\n------------------\n   EXERCICIO 08\n------------------\n"
 
 /*
-		8) Desenvolva um algoritmo que peça para o usuário informar dois números. Após isso, o 
-	algoritmo deve mostrar cálculo o primeiro número elevado ao segundo. Ao final, o 
-	algoritmo deve perguntar se o usuário deseja repetir a operação. Caso o usuário insira 
-	o caractere "s", o algoritmo solicita novamente dois números e mostra novamente a 
-	potência do primeiro pelo segundo. Caso contrário, o algoritmo é encerrado.
+		8) Desenvolva um algoritmo que peÃ§a para o usuÃ¡rio informar dois nÃºmeros. ApÃ³s isso, o 
+	algoritmo deve mostrar cÃ¡lculo o primeiro nÃºmero elevado ao segundo. Ao final, o 
+	algoritmo deve perguntar se o usuÃ¡rio deseja repetir a operaÃ§Ã£o. Caso o usuÃ¡rio insira 
+	o caractere "s", o algoritmo solicita novamente dois nÃºmeros e mostra novamente a 
+	potÃªncia do primeiro pelo segundo. Caso contrÃ¡rio, o algoritmo Ã© encerrado.
 
 */
 
@@ -34,8 +34,8 @@ int main() {
 	// processamento;
 	r = pow(a, b);
 	
-	// saída;
-	printf("\nSaída: %.0f ^ %.0f = %.2f\n", a, b, r);
+	// saÃ­da;
+	printf("\nSaÃ­da: %.0f ^ %.0f = %.2f\n", a, b, r);
 	
 	system("pause");
 	return 0;
